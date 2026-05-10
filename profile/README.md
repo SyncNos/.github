@@ -2,6 +2,6 @@
 
 - SyncNos WebClipper: [SyncNos-Webclipper](https://github.com/SyncNos/SyncNos-Webclipper)
 - SyncNos CLI
-- SyncNos Health
+- SyncNos Health: [SyncNos-Health](https://github.com/SyncNos/SyncNos-Health)
 - SyncNos Roadmap
 - SyncNos Docs
