@@ -1,0 +1,98 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "GitHub Pages 回调页按 state 路由到 syncnos-health-ios scheme"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "c927fb2"
+note = "build passed; strict state routing + missing-param guard (removed syncnos:// fallback)"
+
+[[tasks]]
+id = "P1-T2"
+title = "SyncNosForHealth 注册 URL scheme 并打通 openURL 回调入口"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "66f973e"
+note = "build passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "实现 iOS Notion OAuth（ASWebAuthenticationSession + CF exchange + Keychain）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "43a7850"
+note = "build passed; ASWebAuthenticationSession start() guard + session cleanup"
+
+[[tasks]]
+id = "P2-T1"
+title = "实现 Notion API client（Notion-Version + 错误结构化 + 429 Retry-After）"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "ff1f938"
+note = "build passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "实现 parent pages 拉取与 saved page resolve"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "43a7850"
+note = "build passed; search sort + resolve excludes database-parent pages"
+
+[[tasks]]
+id = "P2-T3"
+title = "实现 HealthKit sleep timeline 读取服务（按天归档：醒来那天）"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "9b5c781"
+note = "build passed; remove health-records entitlement; request authorization; drop iOS<16 compat"
+
+[[tasks]]
+id = "P2-T4"
+title = "实现 sleep timeline 渲染组件（优先复用开源 SwiftUI sleep chart）"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "bbd9738"
+note = "build passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "实现 SwiftUI Notion 设置页（含高级选项：健康 DB 覆盖/重置）"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "930f382"
+note = "build passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "设置页接入 OAuth/parent pages/持久化配置与 UI 状态"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "43a7850"
+note = "build passed; extracted NotionSettingsStore; VM uses store"
+
+[[tasks]]
+id = "P3-T3"
+title = "补齐构建验证命令与最小回归检查（iOS Simulator + GitHub Pages build）"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = ""
+note = "both builds passed"
+
+[[tasks]]
+id = "P3-T4"
+title = "实现 Notion 健康数据库 ensure + 按日 upsert（Date+TotalSleepMin）"
+status = "completed"
+plan = "plan-p3.md#p3-t4"
+commit = "43a7850"
+note = "build passed; ensure validates Date(title) + patches missing TotalSleepMin"
+
+[[tasks]]
+id = "P3-T5"
+title = "实现“选中某天→同步”交互与同步按钮状态/错误提示"
+status = "completed"
+plan = "plan-p3.md#p3-t5"
+commit = "39cdc03"
+note = "build passed"
