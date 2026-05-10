@@ -1,0 +1,66 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "新增 comments 根评论数计算 helper（含单测）"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "279cf27f"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "删除评论后广播 CONVERSATIONS_CHANGED，触发列表刷新"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "0388c2d3"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "列表查询按页注入 commentThreadCount（仅 article）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "602b2d71"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "会话列表行展示 💬 根评论数（含 UI 单测）"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "e45add4e"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "Notion Web Articles DB 增加 Comment Threads 数字属性"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "1fe00062"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "Notion sync 写入 Comment Threads（create/update）"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "b09b654e"
+note = "tests passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "Obsidian frontmatter 写入 comments_root_count"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "ffb91eb6"
+note = "compile passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "修正/补齐 Obsidian markdown writer 测试"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "e6f2bd76"
+note = "tests passed"

@@ -1,0 +1,50 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "Switch auto-attach trigger to pointerup/keyup commit (remove time debounce)"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "8665141b"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "Update unit/smoke tests for commit-based selection attach"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "cbc348c0"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "Add explicit clear-quote handler contract (remove onSave implicit clear) + controller"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "990fdfc7"
+note = "compile+unit passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "Add ❌ overlay button to clear quote; reset dedupe signature; tests"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "1299a7c2"
+note = "tests passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "Ignore sidebar-internal selection in inpage selection resolver (root contains)"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "6888fbad"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "Run full verification and tighten regressions around empty selection"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "5a39ce8d"
+note = "compile+test+build passed"

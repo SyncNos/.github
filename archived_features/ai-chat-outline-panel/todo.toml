@@ -1,0 +1,90 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "定义目录条目模型与纯文本提取工具"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "96dc6a93eefa1e39b325a4ae68a4f2534cb7ad96"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "为目录条目构建逻辑补齐单元测试"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "b105f734280fc2d8d93a0b164c663dc4ae1bc9fd"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "实现目录把手与面板 UI（静态渲染 + hover 展开/收回）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "6fddf760b0eab059e246eb124b5bce8722436fc0"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "把目录面板接入会话详情页并支持点击平滑跳转"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "fb7e9de64c28cbf0958ef40044cd466320371fe5"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "为 user 消息渲染可定位锚点并解析滚动容器 root"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "3d2e6a3c9feb4efa65fd2c701c433d84dbf42990"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "实现 IntersectionObserver 驱动的中线高亮选择器"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "d4b39995d2e2c54bbe6342ce2a0661e409f0447d"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "把自动高亮接回目录面板（包含滚动/点击状态一致性）"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "9262b29cbc4379fe77ef15df22ab7c28d1e035d6"
+note = "tests passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "交互打磨：仅把手触发、关闭延迟、防闪与面板覆盖把手"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "4d77b25cc6d1b071ff6b61fcd1ac234c8b03270f"
+note = "compile passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "可访问性：键盘可达与 Esc 关闭（不改变视觉为按钮）"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "c88191b4e0aaf348d0ef4bce503beaccead47e2f"
+note = "compile passed"
+
+[[tasks]]
+id = "P3-T3"
+title = "性能与一致性：大对话渲染稳定、状态 memo、必要的降级策略"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "5d7915fe92986c14dbe02767e492fb9646b580ac"
+note = "tests passed"
+
+[[tasks]]
+id = "P3-T4"
+title = "文档与验收：更新 deepwiki/AGENTS 要点并补齐手工验收清单"
+status = "completed"
+plan = "plan-p3.md#p3-t4"
+commit = "2a58ba46ebaca548f90dc1ef87ef422fa9799e24"
+note = "gate passed"

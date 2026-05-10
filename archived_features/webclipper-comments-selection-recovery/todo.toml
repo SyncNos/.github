@@ -1,0 +1,74 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "Define selection recovery contract"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "d85c2f3687023214eb221d6a0fc2f94fa93f2a0a"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "Add host gate and capability recorder"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "bb6cb2b7f486e4e9f081eaf2213b89e336215fb3"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "Implement range reconstruction resolver"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "cf9b987f509afd9e3322b431b523ad3f7513aa39"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "Add P1 unit tests"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "fccec62462eff4fcc70b7428dafd72e6cb94d524"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "Wire inpage comments selection fallback"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "7c2ddef3584abdd559d1f66818112b1f40383791"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "Add inpage and app regressions"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "58407a98bbd239ce9a7383217ef5782068779fcf"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "Add diagnostics and capability guards"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "cf82e9b522a78af027211d356bd1e605ac631a42"
+note = "tests passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "Run cross-browser fallback hardening"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "8a0d4ff6ae06a4628c965d0bbf08319cc372ed1b"
+note = "tests passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "Sync docs and compatibility checklist"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "f92bb4e4c51439784fa237b2cd4f3645f498a281"
+note = "docs synced"

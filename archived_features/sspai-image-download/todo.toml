@@ -1,0 +1,58 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "添加 declarativeNetRequest 权限到 wxt.config.ts"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "62b3f606"
+note = "Chrome/Firefox 构建成功，manifest 权限正确"
+
+[[tasks]]
+id = "P1-T2"
+title = "创建 image-download-proxy.ts 通用图片下载辅助模块（Firefox 兼容）"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "0ec351bd"
+note = "编译通过，DNR 规则注册/清理、智能下载完成"
+
+[[tasks]]
+id = "P1-T3"
+title = "扩展 imageSanitizer 支持 stripQuerySuffix"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "194e8b20"
+note = "编译通过，类型和逻辑完成"
+
+[[tasks]]
+id = "P2-T1"
+title = "修改 image-inline.ts 集成 image-download-proxy（含 fallback）"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "e12e12e2"
+note = "编译通过，智能下载 + fallback 完成"
+
+[[tasks]]
+id = "P2-T1.5"
+title = "添加智能强制缓存逻辑到 article-fetch.ts（防盗链图片强制缓存）"
+status = "completed"
+plan = "plan-p2.md#p2-t1-5"
+commit = "1b99b705"
+note = "编译通过，hasAntiHotlinkImages 检测 + 强制缓存完成"
+
+[[tasks]]
+id = "P2-T2"
+title = "添加 image-download-proxy 单元测试（含 chrome global mock）"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "d79447c8"
+note = "10 个测试全部通过，总测试 603 passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "编译与冒烟验证（含 Firefox 构建验证 + 智能缓存验证）"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = ""
+note = "compile/test/build/firefox 全部通过"

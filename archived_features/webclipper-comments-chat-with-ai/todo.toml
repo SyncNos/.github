@@ -1,0 +1,83 @@
+version = 1
+current_task_id = "P4-T3"
+
+[[tasks]]
+id = "P1-T1"
+title = "为root comment渲染Chat with AI入口"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "f81d45d0"
+note = "compile+target tests passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "接入comment级Chat with actions解析与复制"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "b36a48a6"
+note = "compile+chatwith-comment-actions tests passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "app与inpage两端接入comment级Chat with"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "81a7f775"
+note = "compile+app/inpage tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "comment级Chat with复制后按平台跳转"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "ad20780a"
+note = "compile+chatwith-comment-actions tests passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "新增安全的chatwith background打开能力"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "613f8007"
+note = "compile+background-router chatwith smoke passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "实现精准payload(quote+comment+文章元信息)"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "448e2c89"
+note = "compile passed with template rendering"
+
+[[tasks]]
+id = "P3-T2"
+title = "补齐边界与截断策略并加单测"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "a168ccad"
+note = "payload tests+compile passed"
+
+[[tasks]]
+id = "P4-T1"
+title = "新增tabGroups封装并校验权限构建"
+status = "completed"
+plan = "plan-p4.md#p4-t1"
+commit = "cb0258e3"
+note = "compile+tab-groups test+build:firefox+check passed"
+
+[[tasks]]
+id = "P4-T2"
+title = "实现同文章同平台tab复用与分组"
+status = "completed"
+plan = "plan-p4.md#p4-t2"
+commit = "e89fa0f6"
+note = "compile+runner unit+background smoke tests passed"
+
+[[tasks]]
+id = "P4-T3"
+title = "inpage与app接入分组消息并降级"
+status = "completed"
+plan = "plan-p4.md#p4-t3"
+commit = "0843358b"
+note = "compile+target tests+build+build:firefox+check passed"
+

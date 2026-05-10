@@ -1,0 +1,26 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "破坏性重构：抽离列表 tag 计算入口 + web 显示站点域名（删旧逻辑）"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "252a08da"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "为非 web collectors/source tag 引入品牌色 tokens 并切换渲染"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "fe3ac0ba"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "为 tag 解析与配色添加单测并跑通验证链路"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "110ceeda"
+note = "tests passed"

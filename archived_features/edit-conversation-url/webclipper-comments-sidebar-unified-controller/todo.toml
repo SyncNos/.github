@@ -1,0 +1,66 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "定义共享 controller + adapter 接口（services/comments/sidebar），收敛上下文 state"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "79982eab"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T2"
+title = "实现 app adapter（repo 直连）"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "7a7107d1"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T3"
+title = "app 右侧边栏接入共享 controller（UI 组件降级为纯挂载层）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "48689e7b"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "实现 inpage adapter（messaging + ensureContext）"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "accbe4e6"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T5"
+title = "inpage 入口接入共享 controller（删除重复业务流程）"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "62769aff"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T6"
+title = "新增 unit test 覆盖共享 controller 核心流程"
+status = "completed"
+plan = "plan-p1.md#p1-t6"
+commit = "89fff231"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T7"
+title = "更新 targeted tests，覆盖一致性回归点"
+status = "completed"
+plan = "plan-p1.md#p1-t7"
+commit = "71f60972"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T8"
+title = "验证链：compile + targeted tests"
+status = "completed"
+plan = "plan-p1.md#p1-t8"
+commit = ""
+note = "compile ok; tests passed"

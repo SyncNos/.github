@@ -1,0 +1,66 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "新增Discourse topic canonical规则与单测"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "fc3b5bca"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "打通文章会话与评论canonical统一键"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "f4c171f6"
+note = "compile+tests passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "稳定评论侧栏上下文并兼容历史URL"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "061061c4"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "实现Discourse OP优先DOM提取器"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "a53e025f"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "OP缺失时跳转到1楼并停留"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "3e9490d1"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "超时找不到OP时严格失败并提示"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "ea8eae3a"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "补齐URL归一化与会话稳定性测试"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "6c89acf1"
+note = "unit tests passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "补齐OP跳转抓取与失败路径测试"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "34e1a827"
+note = "smoke tests passed"

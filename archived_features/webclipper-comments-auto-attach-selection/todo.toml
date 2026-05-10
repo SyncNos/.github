@@ -1,0 +1,74 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "Define composer selection contract"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "f699bd4b"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "Wire inpage selection resolver"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "a8f52a71"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "Add inpage auto-attach tests"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "b5bcfa3e"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "Wire app popup selection resolver"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "772552bb"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "Connect scene runtime hooks"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "db582051"
+note = "compile+unit passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "Add app popup flow tests"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "352b01bf"
+note = "smoke tests passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "Enforce root-only trigger guard"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "fb922989"
+note = "compile+unit passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "Run compatibility regressions"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "c775ae54"
+note = "smoke passed"
+
+[[tasks]]
+id = "P3-T3"
+title = "Update behavior documentation"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "1b5533a8"
+note = "docs synced + compile passed"

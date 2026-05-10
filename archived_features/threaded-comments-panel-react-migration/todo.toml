@@ -1,0 +1,162 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "为comment save返回值引入结构化ok结果类型（UI + session contract）"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "0d66308ce119bc75a3f58090c8454e237308278a"
+note = "types aligned"
+
+[[tasks]]
+id = "P1-T2"
+title = "升级ArticleCommentsSidebarAdapter.addRoot返回创建出的comment（至少包含id）"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "9c5ba388fbf1b03cfbaba0a2bd4483fa7a104e80"
+note = "adapter returns id"
+
+[[tasks]]
+id = "P1-T3"
+title = "升级inpage adapter addRoot/addReply返回值并保持消息协议兼容"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "f8f5006e32ef3fdc4bbf812b18bd9c62a2e7da83"
+note = "inpage returns id"
+
+[[tasks]]
+id = "P1-T4"
+title = "controller.onSave返回createdRootId并保持quote清空语义"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "4639b82d9fec127069d7080daf7e7bf7a9853208"
+note = "returns createdRootId"
+
+[[tasks]]
+id = "P1-T5"
+title = "补齐类型链路与最小冒烟：compile/test/build不回退"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "2452156d6186d36bdfccae2392d33cdff6db1733"
+note = "compile test build passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "新增React版ThreadedCommentsPanel组件骨架（shadow内渲染）"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "939900c4f48b62992f901c475be0cb444f0514a5"
+note = "skeleton added"
+
+[[tasks]]
+id = "P2-T2"
+title = "引入panel store并用useSyncExternalStore把api.set*桥接到React"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "f1c0680b2f7b72ff43218795afcbc155f8a24249"
+note = "store bridge done"
+
+[[tasks]]
+id = "P2-T3"
+title = "迁移threads/replies渲染到React keyed列表（不再全量销毁重建）"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "896227d344ead7646657dbb1f5788919c8c3051e"
+note = "keyed list migrated"
+
+[[tasks]]
+id = "P2-T4"
+title = "迁移root composer到React并保持快捷键/禁用态/清空逻辑"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "cedd261df2b698bb536c2ab719845e68ef7eafa0"
+note = "composer migrated"
+
+[[tasks]]
+id = "P2-T5"
+title = "实现focus+scroll闭环：root创建后跳到对应Reply，reply发送后停留"
+status = "completed"
+plan = "plan-p2.md#p2-t5"
+commit = "cf3177873483f34546589c3dc093d3c358a1ca5e"
+note = "focus scroll added"
+
+[[tasks]]
+id = "P2-T6"
+title = "迁移delete二次确认（按钮内联确认）并实现click-outside/escape清理"
+status = "completed"
+plan = "plan-p2.md#p2-t6"
+commit = "3124577a7f08cdec5aba241d25dfeeb1b6c30026"
+note = "delete confirm migrated"
+
+[[tasks]]
+id = "P2-T7"
+title = "迁移sidebar locate：点击quote定位root comment并保留失败提示"
+status = "completed"
+plan = "plan-p2.md#p2-t7"
+commit = "6e90a9722df58e07d067d89a1282e7de6de3822c"
+note = "locate migrated"
+
+[[tasks]]
+id = "P2-T8"
+title = "迁移header Chat with AI菜单（如启用）到React并复用现有controller"
+status = "completed"
+plan = "plan-p2.md#p2-t8"
+commit = "8cc0c8e0acc82a025b62a699bfd949053365bdd6"
+note = "header chatwith migrated"
+
+[[tasks]]
+id = "P2-T9"
+title = "迁移comment-level Chat with AI菜单（如启用）并保持Esc/点击关闭语义"
+status = "completed"
+plan = "plan-p2.md#p2-t9"
+commit = "ffa7327fb895d25465b0a5924140c46a8940f908"
+note = "comment chatwith migrated"
+
+[[tasks]]
+id = "P2-T10"
+title = "切换mountThreadedCommentsPanel默认使用React实现并验证app+inpage"
+status = "completed"
+plan = "plan-p2.md#p2-t10"
+commit = "6f331b41d42040a9e41504c352e896ca86a2bcee"
+note = "react renderer enabled"
+
+[[tasks]]
+id = "P2-T11"
+title = "删除legacy DOM实现（panel.ts/render.ts旧路径）并清理未使用代码"
+status = "completed"
+plan = "plan-p2.md#p2-t11"
+commit = "30719a59f3f04f2dbe9f03b66d0abf5a168f479e"
+note = "legacy removed; phase gate passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "补齐回归验证清单与手工复现脚本（app+inpage）"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = ""
+note = "manual smoke drafted"
+
+[[tasks]]
+id = "P3-T2"
+title = "为focus/scroll关键逻辑补最小可测单元（避免回归）"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "bc71832ad5ce0fce4c9473585a3d4ea399da9cf8"
+note = "focus rules extracted and tested"
+
+[[tasks]]
+id = "P3-T3"
+title = "清理类型与边界：避免platform依赖渗透到ui层（边界自检）"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "55b31f4ac0f4bc5f611249460157f0f10006fda9"
+note = "boundary scan passed; no ui/viewmodels platform imports"
+
+[[tasks]]
+id = "P3-T4"
+title = "最终全链路验证：compile/test/build + 关键交互冒烟"
+status = "completed"
+plan = "plan-p3.md#p3-t4"
+commit = "7163dd182887a0222f0cb4c6dd8a4364f5d0c2b0"
+note = "compile test build passed"

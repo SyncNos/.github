@@ -1,0 +1,170 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "定义 $ mention 协议契约与候选匹配模型"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "a9e5fe0b"
+note = "unit test + compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "扩展消息协议并注册 mention 背景处理入口"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "14c22355"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "实现分页架构下候选搜索接口（独立存储查询）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "b369c637"
+note = "unit+storage tests + compile passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "实现插入文本构建接口并复用现有 Markdown copy 真源"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "8e6926b2"
+note = "compile + smoke passed"
+
+[[tasks]]
+id = "P1-T5"
+title = "补齐 mention 背景接口与匹配逻辑测试"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "ab8a2eab"
+note = "router test + compile passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "实现 $ 触发会话状态机与触发片段跟踪"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "7a1e7947"
+note = "unit test + compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "实现小型候选窗口与键盘导航高亮"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "2f2d8607"
+note = "unit test + compile passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "实现 ChatGPT Composer（contenteditable）光标替换插入适配器"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "487f9c3b"
+note = "unit test + compile passed"
+
+[[tasks]]
+id = "P2-T4"
+title = "接入 content 入口并完成 ChatGPT 端到端链路"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "bd62d8ca"
+note = "smoke + compile passed"
+
+[[tasks]]
+id = "P2-T5"
+title = "补齐触发/键盘/替换语义测试（含 Esc 保留文本）"
+status = "completed"
+plan = "plan-p2.md#p2-t5"
+commit = "07263d99"
+note = "smoke tests + compile passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "实现 NotionAI contenteditable 光标替换适配器"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "1e4608cf"
+note = "unit test + compile passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "收敛跨站点 editor adapter 接口与焦点恢复策略"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "4b83c11c"
+note = "compile + targeted tests passed"
+
+[[tasks]]
+id = "P3-T3"
+title = "补齐竞态与边界处理（IME/失焦/异步响应乱序）"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "1736ceed"
+note = "smoke tests + compile passed"
+
+[[tasks]]
+id = "P3-T4"
+title = "同步 WebClipper 文档真源（AGENTS/deepwiki）"
+status = "completed"
+plan = "plan-p3.md#p3-t4"
+commit = "97a2f2d3"
+note = "docs synced + rg verified"
+
+[[tasks]]
+id = "P3-T5"
+title = "完成最终验证链与 phase 审计收口"
+status = "completed"
+plan = "plan-p3.md#p3-t5"
+commit = "5fb4089a"
+note = "compile/test/build passed"
+
+[[tasks]]
+id = "P3-T6"
+title = "Settings 中支持开关 `$` mention"
+status = "completed"
+plan = "plan-p3.md#p3-t6"
+commit = "b1fbca44"
+note = "gate passed + smoke test"
+
+[[tasks]]
+id = "P3-T7"
+title = "将 `$` mention 的站点门控与 AI chat 站点清单对齐"
+status = "completed"
+plan = "plan-p3.md#p3-t7"
+commit = "cccf7dac"
+note = "unit + compile passed"
+
+[[tasks]]
+id = "P3-T8"
+title = "新增 Gemini 编辑器适配器（Claude 跳过）"
+status = "completed"
+plan = "plan-p3.md#p3-t8"
+commit = "a987206f"
+note = "unit + compile passed"
+
+[[tasks]]
+id = "P3-T9"
+title = "新增 DeepSeek 编辑器适配器"
+status = "completed"
+plan = "plan-p3.md#p3-t9"
+commit = "7b3ee257"
+note = "unit + compile passed"
+
+[[tasks]]
+id = "P3-T10"
+title = "新增 Kimi 编辑器适配器"
+status = "completed"
+plan = "plan-p3.md#p3-t10"
+commit = "30b8eb2f"
+note = "unit + compile passed"
+
+[[tasks]]
+id = "P3-T11"
+title = "清理旧代码与最终验证链收口（含 lint/format/gate）"
+status = "in_progress"
+plan = "plan-p3.md#p3-t11"
+commit = "d9f3cf67"
+note = "lint/format/test/gate passed"

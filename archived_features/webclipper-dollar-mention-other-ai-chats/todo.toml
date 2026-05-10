@@ -1,0 +1,138 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "web-access 站点调研：整理每个平台的 composer 类型/selector/按键语义与可达性"
+status = "pending"
+plan = "plan-p1.md#p1-t1"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P1-T2"
+title = "重构 item-mention adapter 路由为 registry（可按 host 扩展）"
+status = "pending"
+plan = "plan-p1.md#p1-t2"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P1-T3"
+title = "补齐 textarea 通用适配工具（用于新平台复用替换/光标/事件）"
+status = "pending"
+plan = "plan-p1.md#p1-t3"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P1-T4"
+title = "补齐 contenteditable 通用适配工具（用于非 ChatGPT/Notion 的富文本输入框）"
+status = "pending"
+plan = "plan-p1.md#p1-t4"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P1-T5"
+title = "更新 Settings 的 `$ mention` i18n 提示文案（覆盖更多平台）"
+status = "pending"
+plan = "plan-p1.md#p1-t5"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P1-T6"
+title = "为新增平台适配器建立 smoke test 模板与复用 helper"
+status = "pending"
+plan = "plan-p1.md#p1-t6"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P2-T1"
+title = "Claude：实现 composer adapter + web-access 验证 + smoke test（含 Tab/Enter 插入）"
+status = "pending"
+plan = "plan-p2.md#p2-t1"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P2-T2"
+title = "DeepSeek：实现 composer adapter + web-access 验证 + smoke test（含 Tab/Enter 插入）"
+status = "pending"
+plan = "plan-p2.md#p2-t2"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P2-T3"
+title = "Kimi：实现 composer adapter + web-access 验证 + smoke test（含 Tab/Enter 插入）"
+status = "pending"
+plan = "plan-p2.md#p2-t3"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P2-T4"
+title = "豆包：实现 composer adapter + web-access 验证 + smoke test（含 Tab/Enter 插入）"
+status = "pending"
+plan = "plan-p2.md#p2-t4"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P2-T5"
+title = "元宝：实现 composer adapter + web-access 验证 + smoke test（含 Tab/Enter 插入）"
+status = "pending"
+plan = "plan-p2.md#p2-t5"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P2-T6"
+title = "z.ai：实现 composer adapter + web-access 验证 + smoke test（含 Tab/Enter 插入）"
+status = "pending"
+plan = "plan-p2.md#p2-t6"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P2-T7"
+title = "Poe：实现 composer adapter + web-access 验证 + smoke test（含 Tab/Enter 插入）"
+status = "pending"
+plan = "plan-p2.md#p2-t7"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P3-T1"
+title = "Gemini：实现 composer adapter + web-access 验证 + smoke test（或判定不可支持并禁用激活）"
+status = "pending"
+plan = "plan-p3.md#p3-t1"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P3-T2"
+title = "Google AI Studio：实现 composer adapter + web-access 验证 + smoke test（含 Tab/Enter 插入）"
+status = "pending"
+plan = "plan-p3.md#p3-t2"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P3-T3"
+title = "跨平台 hardening：防误触发 + 插入兼容 + 清理多余代码"
+status = "pending"
+plan = "plan-p3.md#p3-t3"
+commit = ""
+note = ""
+
+[[tasks]]
+id = "P3-T4"
+title = "最终验证：逐站点冒烟 + 通过 gate"
+status = "pending"
+plan = "plan-p3.md#p3-t4"
+commit = ""
+note = ""

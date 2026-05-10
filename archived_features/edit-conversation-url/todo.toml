@@ -1,0 +1,114 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "新增评论 canonicalUrl 迁移/合并能力（background+client+idb）"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "32b255bd"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T2"
+title = "新增 upsertConversation 客户端调用用于更新 url"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "15995689"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T3"
+title = "宽屏 detail header：URL 文本展示 + 进入编辑态 + 保存/取消键盘交互"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "2f973c98"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T4"
+title = "窄屏 DetailNavigationHeader：URL 替换 subtitle + 复用同一编辑入口"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "f5be3c56"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T5"
+title = "冲突检测与确认：新 canonicalUrl 已存在时提示并合并评论"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "ab4778f6"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T6"
+title = "编辑态工具：清理参数按钮（cleanTrackingParamsUrl）"
+status = "completed"
+plan = "plan-p1.md#p1-t6"
+commit = "70f79982"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T7"
+title = "补齐单测：comments idb 迁移/合并用例"
+status = "completed"
+plan = "plan-p1.md#p1-t7"
+commit = "f194a972"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T8"
+title = "验证链：compile + targeted tests"
+status = "completed"
+plan = "plan-p1.md#p1-t8"
+commit = ""
+note = "compile ok; tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "可选：URL 行增加外链小按钮（打开链接，点击文本仍为编辑）"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "4fe99606"
+note = "rolled back in 0f565afe"
+
+[[tasks]]
+id = "P2-T2"
+title = "可选：增加复制 URL 的轻量操作"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "0dc1d3c3"
+note = "rolled back in 0f565afe"
+
+[[tasks]]
+id = "P2-T3"
+title = "可选：加固 UPSERT_CONVERSATION 合并规则（sourceType/lastCapturedAt 默认继承 existing）"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "a96effb5"
+note = "compile ok; tests passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "URL 冲突时合并文章会话（core+idb）"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "8e718115"
+note = "compile ok; follow-up fix 12cd2bb3"
+
+[[tasks]]
+id = "P3-T2"
+title = "URL 冲突确认后执行会话去重（viewmodel）"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "af74ac4c"
+note = "compile ok"
+
+[[tasks]]
+id = "P3-T3"
+title = "补齐单测：会话合并（IDB）"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "26a6b28a"
+note = "tests passed"

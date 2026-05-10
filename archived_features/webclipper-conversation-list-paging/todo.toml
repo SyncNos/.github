@@ -1,0 +1,162 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "定义分页查询域模型（query/cursor/page/summary/facets/open-target）"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "56ea2be7"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "Schema 迁移：补充分页索引与过滤派生键"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "15f94976"
+note = "migration tests and compile passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "实现 IDB 分页查询、精确查找与统计摘要接口"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "2dd2c83d"
+note = "idb tests and compile passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "写路径收敛：upsert/merge 同步维护分页派生键"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "77d48037"
+note = "storage tests and compile passed"
+
+[[tasks]]
+id = "P1-T5"
+title = "扩展分页消息协议与 repo API，并删除旧全量列表接口"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "067e3e01"
+note = "router tests and compile passed"
+
+[[tasks]]
+id = "P1-T6"
+title = "补齐 P1 存储与路由测试（迁移/分页/精确查找）"
+status = "completed"
+plan = "plan-p1.md#p1-t6"
+commit = "cf3570b1"
+note = "pagination tests and compile passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "Provider 状态机重构：分页状态与 activeConversation 快照解耦"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "9f838422"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "过滤重载与请求竞态保护（分页 + 精确打开）"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "333ab969"
+note = "smoke and compile passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "ConversationListPane 接入近底自动加载 sentinel"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "5ec38d10"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T4"
+title = "实现定位收敛：未渲染目标触发增量加载并有界重试"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "8bb76024"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T5"
+title = "筛选菜单与统计改为 summary/facets 口径"
+status = "completed"
+plan = "plan-p2.md#p2-t5"
+commit = "01747430"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T6"
+title = "落地“仅已加载可见项”选择语义与双处 tooltip"
+status = "completed"
+plan = "plan-p2.md#p2-t6"
+commit = "30577fe4"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T7"
+title = "完善分页加载态/错误态/无更多数据边界"
+status = "completed"
+plan = "plan-p2.md#p2-t7"
+commit = "67482760"
+note = "unit test and compile passed"
+
+[[tasks]]
+id = "P2-T8"
+title = "补齐分页 UI/Provider 定向测试"
+status = "completed"
+plan = "plan-p2.md#p2-t8"
+commit = "cc84808f"
+note = "targeted tests and compile passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "AppShell loc 消费切换到 provider 精确打开链路"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "82db4bc9"
+note = "smoke and compile passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "InsightPanel 去除全量 items 路由依赖"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "6d7ed1bc"
+note = "insight test and compile passed"
+
+[[tasks]]
+id = "P3-T3"
+title = "详情头与评论侧栏上下文兼容“目标未加载”场景"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "0aa87453"
+note = "compile and smoke passed"
+
+[[tasks]]
+id = "P3-T4"
+title = "完成 deep-link/locate/窄屏桥接回归修复"
+status = "completed"
+plan = "plan-p3.md#p3-t4"
+commit = "f9ce355b"
+note = "smoke and compile passed"
+
+[[tasks]]
+id = "P3-T5"
+title = "同步文档真源（AGENTS/deepwiki）"
+status = "completed"
+plan = "plan-p3.md#p3-t5"
+commit = "6fde8bb0"
+note = "docs grep passed"
+
+[[tasks]]
+id = "P3-T6"
+title = "执行最终验证链并记录已知阻塞归因"
+status = "completed"
+plan = "plan-p3.md#p3-t6"
+commit = "1a39a960"
+note = "compile test build passed"

@@ -1,0 +1,146 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T0"
+title = "整理站点适配代码目录（为完全重构做结构铺垫）"
+status = "completed"
+plan = "plan-p1.md#p1-t0"
+commit = "533f5708"
+note = "compile and tests passed"
+
+[[tasks]]
+id = "P1-T1"
+title = "补齐fetch articles重构前的回归用例（linux.do onebox 截断）"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "99204125"
+note = "regression reproduces issue"
+
+[[tasks]]
+id = "P1-T2"
+title = "修复现有htmlToMarkdown root误选导致只输出onebox的问题"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "53fffb57"
+note = "onebox regression turns green"
+
+[[tasks]]
+id = "P1-T3"
+title = "引入Turndown风格HTML→Markdown转换器（最小规则集）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "2923804f"
+note = "compile passed with new module"
+
+[[tasks]]
+id = "P1-T4"
+title = "切换Discourse cooked 与 fallback 到新转换器并保持兼容"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "16822dba"
+note = "full tests passed"
+
+[[tasks]]
+id = "P1-T5"
+title = "增加小红书note的engine级回归用例（确保站点适配不回归）"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "e48c9bd1"
+note = "xhs smoke test passed"
+
+[[tasks]]
+id = "P1-T6"
+title = "回收并删除临时shim（避免旧文件长期共存）"
+status = "completed"
+plan = "plan-p1.md#p1-t6"
+commit = "f9e07e3c"
+note = "shim imports removed and build passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "引入Defuddle通用抽取（对齐obsidian-clipper的extract策略）"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "070f6e19"
+note = "compile passed with defuddle branch"
+
+[[tasks]]
+id = "P2-T2"
+title = "加入HTML清洗与URL绝对化步骤（脚本/样式/内联style等）"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "13ce626b"
+note = "html clean integrated in turndown"
+
+[[tasks]]
+id = "P2-T3"
+title = "调整extract顺序与稳定等待策略（SPA/hydration通用）"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "9b667079"
+note = "full tests passed with new complex smoke"
+
+[[tasks]]
+id = "P2-T4"
+title = "让site spec输出走统一HTML→Markdown转换器（保留适配但消除旁路）"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "9dc0ced8"
+note = "site spec markdown now unified in engine"
+
+[[tasks]]
+id = "P2-T5"
+title = "让微信公众号share media图集并入Turndown统一转换（消除旁路）"
+status = "completed"
+plan = "plan-p2.md#p2-t5"
+commit = "2058d7f2"
+note = "wechat markdown bypass removed"
+
+[[tasks]]
+id = "P3-T1"
+title = "收敛/清理旧extract路径（Readability注入与重复逻辑）"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "db160d07"
+note = "readability injection now deferred"
+
+[[tasks]]
+id = "P3-T2"
+title = "更新deepwiki：新fetch articles架构、验证清单、对标差异"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "01e3f6d7"
+note = "deepwiki fetch-articles section updated"
+
+[[tasks]]
+id = "P4-T1"
+title = "删除fetch articles旧htmlToMarkdown转换器兜底（字节级清理）"
+status = "completed"
+plan = "plan-p4.md#p4-t1"
+commit = "155cc5bd"
+note = "compile test build passed"
+
+[[tasks]]
+id = "P4-T2"
+title = "移除site spec返回结构中的contentMarkdown占位字段"
+status = "completed"
+plan = "plan-p4.md#p4-t2"
+commit = "0fb87489"
+note = "compile and xhs unit test passed"
+
+[[tasks]]
+id = "P4-T3"
+title = "收敛ARTICLE_FETCH_SITE_SPECS导出链路（去掉多层re-export）"
+status = "completed"
+plan = "plan-p4.md#p4-t3"
+commit = "37f0e089"
+note = "export bridge removed and tests passed"
+
+[[tasks]]
+id = "P4-T4"
+title = "缩小article-extract/sites导出API面（移除未使用re-export）"
+status = "completed"
+plan = "plan-p4.md#p4-t4"
+commit = "c036c6cc"
+note = "compile and article extract tests passed"

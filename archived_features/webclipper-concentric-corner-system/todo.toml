@@ -1,0 +1,90 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "建立圆角 token 真源并定义同心分级"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "9939b89d"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "收敛按钮与菜单到 radius tokens"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "e9770c69"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "补充圆角规范文档与扫描约束"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "7523aa61"
+note = "rg baseline recorded"
+
+[[tasks]]
+id = "P2-T1"
+title = "统一 app/popup 主容器和 settings 基础控件圆角"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "83a581f3"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "统一 conversations 外层容器、列表卡片与标签圆角"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "8af71e77"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "统一 conversations 详情头输入与动作控件圆角"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "cf30ac35"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P2-T4"
+title = "统一 inpage comments panel 主体块级圆角层级"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "2cf04268"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P2-T5"
+title = "统一 inpage button 与 nav 入口圆角语义"
+status = "completed"
+plan = "plan-p2.md#p2-t5"
+commit = "0f1eb174"
+note = "compile+smoke passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "统一 tooltip/inpage tip/locate highlight 边缘圆角"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "d927d827"
+note = "compile passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "统一 ChatMessageBubble markdown 内联圆角"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "4c72b3bd"
+note = "compile+targeted tests passed"
+
+[[tasks]]
+id = "P3-T3"
+title = "完成圆角硬编码收敛扫描与最终验证链"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "89a43c49"
+note = "core gates passed; full test 8 known fails"

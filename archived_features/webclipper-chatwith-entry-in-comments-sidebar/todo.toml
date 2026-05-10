@@ -1,0 +1,42 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "Panel：为 comments sidebar header 增加 Chat with 下拉入口（UI + plumbing）"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "3ab12543"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "App：将 Chat with 下拉接入右侧 comments sidebar（复用现有 payload）"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "c16c21d6"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "Inpage：将 Chat with 下拉接入注入 comments sidebar（resolve/capture + detail）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "4b3443c0"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "移除：全局删除 app/popup 详情页 header 的 Chat with 入口"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "23e43eb4"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T5"
+title = "验证：compile + 人工冒烟（app/inpage）"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "7e407cfe"
+note = "compile passed; manual pending"

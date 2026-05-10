@@ -1,0 +1,34 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "彻底清理 detail header tools 的 Chat-with 入口与契约"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "8df12367"
+note = "compile/test/build passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "popup 评论按钮改为打开 app.html 并定位到对应 article conversation"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "b0502bfd"
+note = "compile/test/build passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "为 popup→app 定位跳转补齐 smoke/unit 覆盖"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "e9826ca2"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "（暂缓）app 侧实现 loc 就绪后的“一次性自动展开 comments”闸门"
+status = "blocked"
+plan = "plan-p2.md#p2-t1"
+commit = ""
+note = "Cancelled by user: P2 不做"

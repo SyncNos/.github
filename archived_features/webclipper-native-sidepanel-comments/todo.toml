@@ -1,0 +1,130 @@
+version = 1
+current_task_id = "P2-T4"
+
+[[tasks]]
+id = "P0-T1"
+title = "Pivot：目标改为 per-tab AI web companion（iframe 优先，AI tab 降级）"
+status = "completed"
+plan = "idea.md"
+commit = ""
+note = "docs updated (2026-03-26)"
+
+[[tasks]]
+id = "P0-T2"
+title = "Archive：暂不推进 P2（per-tab AI tab）"
+status = "completed"
+plan = "archive-p2.md"
+commit = ""
+note = "docs updated (2026-03-26)"
+
+[[tasks]]
+id = "P1-T1"
+title = "扩展 comments 面板为共享侧边栏（mode + ai iframe + header 下拉）"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "44d01f35"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T2"
+title = "接线：Chat with AI -> 共享侧边栏（app）"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "e856fee1"
+note = "compile ok (narrow header open fix: c13f385c)"
+
+[[tasks]]
+id = "P1-T3"
+title = "inpage comments panel 同步支持 AI chats"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "422b2500"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T4"
+title = "人工冒烟：sidebar dropdown 入口 + 默认 AI + iframe 失败 CTA"
+status = "canceled"
+plan = "plan-p1.md#p1-t4"
+commit = ""
+note = "abandoned: iframe embed is not viable (host page CSP frame-src + passkey/webAuthn + ban risk). See 探索报告.md (2026-03-26)"
+
+[[tasks]]
+id = "P1-T10"
+title = "Docs：输出探索报告（放弃 iframe embed）"
+status = "completed"
+plan = "探索报告.md"
+commit = ""
+note = "docs updated (2026-03-26)"
+
+[[tasks]]
+id = "P1-T5"
+title = "移除 Chat with AI 按钮入口（仅保留 sidebar header 下拉）"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "2ad5700c"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T6"
+title = "AI chats 选中时自动加载 Settings 里第一个 AI"
+status = "completed"
+plan = "plan-p1.md#p1-t6"
+commit = "dbafd55b"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T7"
+title = "移除 AI chats 的 Open in new tab CTA"
+status = "completed"
+plan = "plan-p1.md#p1-t7"
+commit = "e7fcb9e9"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T8"
+title = "实验：DNR 剥 iframe 安全 header（XFO/CSP）"
+status = "completed"
+plan = "plan-p1.md#p1-t8"
+commit = "a8ea86e1"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T9"
+title = "修复：DNR 规则匹配与安装稳定性（session rules + onStartup）"
+status = "completed"
+plan = "plan-p1.md#p1-t9"
+commit = "ede031f2"
+note = "compile ok"
+
+[[tasks]]
+id = "P2-T1"
+title = "Background：实现 per-tab AI companion tab（映射 + create/reuse + move + group + cleanup）"
+status = "completed"
+plan = "plan-p2.md"
+commit = ""
+note = "implemented on crh2 (2026-03-26)"
+
+[[tasks]]
+id = "P2-T2"
+title = "UI：comments sidebar header 下拉入口（Chat with AI -> open companion tab）"
+status = "completed"
+plan = "plan-p2.md"
+commit = ""
+note = "implemented on crh2 (2026-03-26)"
+
+[[tasks]]
+id = "P2-T3"
+title = "Manifest：增加 tabGroups 权限（best-effort tab group 绑定）"
+status = "completed"
+plan = "plan-p2.md"
+commit = ""
+note = "implemented on crh2 (2026-03-26)"
+
+[[tasks]]
+id = "P2-T4"
+title = "验证：compile + 人工冒烟（P2）"
+status = "completed"
+plan = "plan-p2.md"
+commit = ""
+note = "compile ok (2026-03-26)"

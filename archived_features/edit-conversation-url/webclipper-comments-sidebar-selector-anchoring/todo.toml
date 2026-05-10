@@ -1,0 +1,90 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "引入 selector anchoring 依赖与类型定义"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "f413380c"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T2"
+title = "为 article_comments 增加可选 locator 存储字段（无破坏升级）"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "849de99a"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T3"
+title = "inpage：打开 sidebar 时捕获选区 selector，并在保存根评论时写入 locator"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "239f2782"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T4"
+title = "app：打开 comments sidebar 时捕获选区 selector，并在保存根评论时写入 locator"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "629b8728"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T5"
+title = "sidebar：根评论点击触发 selector 定位 + smooth scroll + 失败轻提示"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "ef89a31a"
+note = "compile ok"
+
+[[tasks]]
+id = "P1-T6"
+title = "单测：locator 序列化/还原与点击定位的最小覆盖"
+status = "completed"
+plan = "plan-p1.md#p1-t6"
+commit = "68a810e9"
+note = "compile ok; tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "inpage：增强滚动容器处理与失败重试（动态加载更稳）"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "6243965e"
+note = "compile ok"
+
+[[tasks]]
+id = "P2-T2"
+title = "app：增强定位 root 选择与防误匹配（避免侧边栏内命中）"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "ede508e3"
+note = "compile ok"
+
+[[tasks]]
+id = "P2-T3"
+title = "UX：轻提示样式与可访问性打磨（不打断输入）"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "c2fdc27e"
+note = "compile ok"
+
+[[tasks]]
+id = "P2-T4"
+title = "回归：hostile CSS / 典型站点（ChatGPT/Notion/Medium）手动验证清单"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = ""
+note = "drafted checklist"
+
+[[tasks]]
+id = "P2-T5"
+title = "动态站点修复：滚动容器识别 + Range 还原校验"
+status = "completed"
+plan = ""
+commit = "b7278c1b"
+note = "tests passed"

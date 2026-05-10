@@ -1,0 +1,130 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "抽共享 comments sidebar runtime（session/controller/snapshot/rootRef）"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "b1b82830"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "实现窄屏三步导航容器（list/detail/comments）"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "a76b0faf"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "ConversationsScene 接入 comments step（open/close/escape/back）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "b26b5d59"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "popup 接入 comments step，并切换为 detail 内联 header"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "64262121"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T5"
+title = "app 窄屏接入 comments step，并切换为 detail 内联 header"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "fe3159a2"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T6"
+title = "移除 ConversationDetailPane 窄屏内嵌评论"
+status = "completed"
+plan = "plan-p1.md#p1-t6"
+commit = "a6c7e428"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T7"
+title = "修正受影响 smoke 测试（popup/app 窄屏头部与 escape）"
+status = "completed"
+plan = "plan-p1.md#p1-t7"
+commit = "ce035a77"
+note = "target smoke passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "引入 app 响应式档位（narrow/medium/wide）hook"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "add2795a"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "AppShell 中屏默认关闭 comments，点击后三栏"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "39d6e13e"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "AppShell 宽屏行为保持不变（存储键/自动打开不回归）"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "4740319b"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T4"
+title = "中屏与窄屏切换时状态重置策略（medium 始终默认关闭）"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "9e72cd8e"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T5"
+title = "修正受影响 AppShell smoke 测试（medium/wide 状态隔离）"
+status = "completed"
+plan = "plan-p2.md#p2-t5"
+commit = "d04da7d8"
+note = "target smoke passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "新增窄屏三步 route 单测（state + escape）"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "f6c4f168"
+note = "target test passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "新增窄屏 comments 流 smoke（list/detail/comments 往返）"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "050e91e3"
+note = "target smoke passed"
+
+[[tasks]]
+id = "P3-T3"
+title = "边界回归测试（非 article 禁用、locator root 与 locate）"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "1a551d50"
+note = "target test passed"
+
+[[tasks]]
+id = "P3-T4"
+title = "清理残留路径并执行 compile/test/build 全量验收"
+status = "completed"
+plan = "plan-p3.md#p3-t4"
+commit = "c3dc3699"
+note = "full verify passed"

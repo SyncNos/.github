@@ -1,0 +1,90 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "为IndexedDB增加按conversation取messages tail窗口（<=200）能力"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "ecdbe948"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "增加storage层API：按source+conversationKey读取本地conversation tail窗口"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "ecd9ef95"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "增加background message：getConversationTailWindowBySourceAndKey（含路由与测试）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "1cabadfa"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "实现content侧纯函数reconcile：local tail vs page window 计算backfill delta（含单测）"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "dc8275ff"
+note = "tests passed"
+
+[[tasks]]
+id = "P1-T5"
+title = "把backfill reconcile接入content-controller autosave tick（安全策略A + 有限重试 + console日志）"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "dc92d850"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T6"
+title = "补齐content-controller backfill的smoke测试：成功补齐/无overlap跳过/窗口变化触发重试"
+status = "completed"
+plan = "plan-p1.md#p1-t6"
+commit = "98b95cd9"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "抽取autosave identity/overlap通用工具并及时删除旧实现（incremental + backfill 共用）"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "5d946535"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "autosave增量引擎：将fallback_ key视为不稳定，避免跨窗口/跨会话key漂移导致重复"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "b222e16c"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "完善backfill与incremental协作：backfill后初始化/更新baseline，避免重复写入或漏写"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "ce3f8a21"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T4"
+title = "性能与边界：节流/上限/仅AI chat生效；补齐单测覆盖边界条件"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "404267d7"
+note = "tests passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "更新deepwiki开发文档：autosave backfill语义、窗口限制（200）、安全跳过与排障建议"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "839d7ead"
+note = "build passed"

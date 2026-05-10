@@ -1,0 +1,66 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "在 services 层新增 Notion parent pages 单一真源模块"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "f503b828"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "新增 background handler + message type：列出/刷新 Notion parent pages"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "90a12b4d"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "迁移 Settings ViewModel 到新 message，并在同提交删除旧直连实现"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "42f15685"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T4"
+title = "重构 NotionOAuthSection 的 loading/empty 表达，移除 clickRefresh 占位"
+status = "completed"
+plan = "plan-p1.md#p1-t4"
+commit = "a76cc6cd"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T5"
+title = "从根本修复 Notion connect/disconnect 状态不同步（无需刷新插件页面）"
+status = "completed"
+plan = "plan-p1.md#p1-t5"
+commit = "2a469623"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "为 parent pages discovery 增加单测/冒烟测试覆盖（分页与过滤）"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "86e884fb"
+note = "tests passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "补齐失败口径与边界行为（空结果/权限/429），并做残留扫描清理"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "a32f8d74"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "跑通验证链路（compile/test/build），记录与修复阻塞"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "147d81d2"
+note = "compile/test/build passed"

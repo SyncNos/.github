@@ -1,0 +1,106 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "归位：将 threaded comments panel 从 services 迁移到 ui"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "7342ba60"
+note = "compile/lint passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "建立新模块结构与公共 types 导出"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "ce5be9fd"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "验证链：lint + compile + test（保持行为不变）"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "b910705d"
+note = "lint/compile/test passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "拆分：抽离 Shadow CSS 构建与注入"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "90ab7f4f"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "拆分：抽离 dockPage 顶开页面逻辑"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "ed74b3c4"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "拆分：抽离 sidebar resize + width persistence"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "4572bd4a"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T4"
+title = "拆分：抽离 Chat-with 菜单状态机与渲染"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "ee9a3fe3"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T5"
+title = "拆分：抽离 locate/scroll/highlight 能力"
+status = "completed"
+plan = "plan-p2.md#p2-t5"
+commit = "a62f57dd"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T6"
+title = "拆分：抽离 threads/composer 渲染与事件绑定"
+status = "completed"
+plan = "plan-p2.md#p2-t6"
+commit = "ee7b9f4e"
+note = "compile passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "收敛：消除重复 normalize helpers（safeString/normalizeHttpUrl/normalizeConversationId）"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "6ef7df28"
+note = "compile passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "规范：减少 any，集中边界 cast，并补齐类型守卫"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "fe0cb9d7"
+note = "lint/compile passed"
+
+[[tasks]]
+id = "P3-T3"
+title = "测试：为拆分出的纯逻辑补 vitest 单测"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "f0dab8b7"
+note = "targeted tests passed"
+
+[[tasks]]
+id = "P3-T4"
+title = "最终验证：lint + compile + test + build"
+status = "completed"
+plan = "plan-p3.md#p3-t4"
+commit = "8821a68b"
+note = "lint/format/compile/test/build passed"

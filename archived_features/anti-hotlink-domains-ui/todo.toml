@@ -1,0 +1,58 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "建立平台侧规则存储"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "2021b33f"
+note = "compile passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "接入运行时查表与回退"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "17fa57a9"
+note = "compile+test passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "补运行时防回归测试"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "c7578a02"
+note = "compile+test passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "建立settings集成服务"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "e0a24448"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "接入设置控制器状态"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "abdb96da"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "实现高级编辑面板"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "6d380bec"
+note = "compile passed"
+
+[[tasks]]
+id = "P2-T4"
+title = "补UI与端到端回归"
+status = "completed"
+plan = "plan-p2.md#p2-t4"
+commit = "e3bf93c2"
+note = "compile+test+build passed"

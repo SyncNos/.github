@@ -1,0 +1,74 @@
+version = 1
+current_task_id = ""
+
+[[tasks]]
+id = "P1-T1"
+title = "定义阅读风格协议契约与 resolver 回退"
+status = "completed"
+plan = "plan-p1.md#p1-t1"
+commit = "add28427"
+note = "compile and tests passed"
+
+[[tasks]]
+id = "P1-T2"
+title = "落地 Medium-like 排版并替换硬编码 profile 样式"
+status = "completed"
+plan = "plan-p1.md#p1-t2"
+commit = "18f3c736"
+note = "compile and renderer tests passed"
+
+[[tasks]]
+id = "P1-T3"
+title = "增加可读性守护测试与 P1 验证闭环"
+status = "completed"
+plan = "plan-p1.md#p1-t3"
+commit = "f8cd3b72"
+note = "compile and p1 guard tests passed"
+
+[[tasks]]
+id = "P2-T1"
+title = "实现 Notion-like profile（紧凑但可读）"
+status = "completed"
+plan = "plan-p2.md#p2-t1"
+commit = "762c5019"
+note = "compile and notion profile tests passed"
+
+[[tasks]]
+id = "P2-T2"
+title = "实现 Book-like profile（长文沉浸）"
+status = "completed"
+plan = "plan-p2.md#p2-t2"
+commit = "75ab1a66"
+note = "compile and book profile tests passed"
+
+[[tasks]]
+id = "P2-T3"
+title = "建立三风格回归矩阵（light/dark + user/assistant）"
+status = "completed"
+plan = "plan-p2.md#p2-t3"
+commit = "0c5fc4c1"
+note = "compile and matrix tests passed"
+
+[[tasks]]
+id = "P3-T1"
+title = "接入 profile 存储键与兼容回读（脏值兜底）"
+status = "completed"
+plan = "plan-p3.md#p3-t1"
+commit = "328cb4f4"
+note = "compile and storage tests passed"
+
+[[tasks]]
+id = "P3-T2"
+title = "设置页接入 profile 选择并贯通详情渲染链"
+status = "completed"
+plan = "plan-p3.md#p3-t2"
+commit = "095249ab"
+note = "compile and detail smoke tests passed"
+
+[[tasks]]
+id = "P3-T3"
+title = "完成最终 UX 验收、文档同步与审计收口"
+status = "completed"
+plan = "plan-p3.md#p3-t3"
+commit = "f253322b"
+note = "compile+build passed; full test has known env blockers"
